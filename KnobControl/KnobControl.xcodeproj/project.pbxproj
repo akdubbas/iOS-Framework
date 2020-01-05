@@ -10,9 +10,9 @@
 		AFBF310823C21A9400326675 /* KnobControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF30FE23C21A9300326675 /* KnobControl.framework */; };
 		AFBF310D23C21A9400326675 /* KnobControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF310C23C21A9400326675 /* KnobControlTests.swift */; };
 		AFBF310F23C21A9400326675 /* KnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBF310123C21A9300326675 /* KnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFBF311923C21B4E00326675 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF311823C21B4E00326675 /* Knob.swift */; };
 		AFBF311B23C21CE100326675 /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF311A23C21CE100326675 /* KnobRenderer.swift */; };
 		AFBF311D23C21D8F00326675 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF311C23C21D8F00326675 /* RotationGestureRecognizer.swift */; };
+		AFBF312C23C22EDF00326675 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF312B23C22EDF00326675 /* Knob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +32,9 @@
 		AFBF310723C21A9400326675 /* KnobControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnobControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBF310C23C21A9400326675 /* KnobControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobControlTests.swift; sourceTree = "<group>"; };
 		AFBF310E23C21A9400326675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFBF311823C21B4E00326675 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Knob.swift; path = ../../KnobShowcase/KnobShowcase/Knob.swift; sourceTree = "<group>"; };
 		AFBF311A23C21CE100326675 /* KnobRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobRenderer.swift; sourceTree = "<group>"; };
 		AFBF311C23C21D8F00326675 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		AFBF312B23C22EDF00326675 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 		AFBF310023C21A9300326675 /* KnobControl */ = {
 			isa = PBXGroup;
 			children = (
-				AFBF311823C21B4E00326675 /* Knob.swift */,
+				AFBF312B23C22EDF00326675 /* Knob.swift */,
 				AFBF310123C21A9300326675 /* KnobControl.h */,
 				AFBF310223C21A9300326675 /* Info.plist */,
 				AFBF311A23C21CE100326675 /* KnobRenderer.swift */,
@@ -207,7 +207,7 @@
 			files = (
 				AFBF311B23C21CE100326675 /* KnobRenderer.swift in Sources */,
 				AFBF311D23C21D8F00326675 /* RotationGestureRecognizer.swift in Sources */,
-				AFBF311923C21B4E00326675 /* Knob.swift in Sources */,
+				AFBF312C23C22EDF00326675 /* Knob.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
