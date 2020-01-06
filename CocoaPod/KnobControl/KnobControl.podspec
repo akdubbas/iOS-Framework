@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license             = "MIT"
   s.author              = "Lorenzo Boaro"
   s.platform            = :ios, "12.0"
-  s.source              = { :git => "https://github.com/akdubbas/iOS-Framework.git", :tag => "1.0.0" }
+  s.source              = { :path => '.' }
   s.source_files        = "KnobControl"
   s.swift_version       = "4.2"
 

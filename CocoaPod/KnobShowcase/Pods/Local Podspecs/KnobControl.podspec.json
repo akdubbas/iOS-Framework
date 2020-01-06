@@ -10,9 +10,10 @@
     "ios": "12.0"
   },
   "source": {
-    "git": "https://github.com/flexaddicted/KnobControl.git",
+    "git": "https://github.com/akdubbas/iOS-Framework.git",
     "tag": "1.0.0"
   },
   "source_files": "KnobControl",
+  "swift_versions": "4.2",
   "swift_version": "4.2"
 }
